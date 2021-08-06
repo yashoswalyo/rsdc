@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  font-family: ui-sans-serif;
+  font-family: 'Roboto';
 }
 
 body {
@@ -32,16 +32,17 @@ body {
 
 .title h1 {
   margin: 0;
-  font-weight: 800;
-  font-size: 4rem;
-  color: rgba(17, 102, 182, 0.918);
+  width: 100%;
+  font-weight: 700;
+  font-size:8vw;
+  color: #3376ff;
 }
 
 .title span {
   line-height: 1;
   font-weight: 500;
   color: white;
-  font-size: 20px;
+  font-size: 2.5vw;
 }
 
 .hero {
@@ -59,7 +60,6 @@ body {
 
 
 .hero h2 {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   line-height: 2;
 }
 
