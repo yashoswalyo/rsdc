@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+  font-family: ui-sans-serif;
+}
+
+body {
+  background-color: #1e1f23;
+  background-attachment: fixed;
+  padding: 2em;
+  margin: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 97%;
+  position: relative;
+  z-index: 100;
+}
+
+.line {
+  border: 2px black solid;
+  box-shadow: -5px -5px 30px;
+}
+
+.title {
+  text-align: center;
+  padding: 60px;
+}
+
+.title h1 {
+  margin: 0;
+  font-weight: 800;
+  font-size: 4rem;
+  color: rgba(17, 102, 182, 0.918);
+}
+
+.title span {
+  line-height: 1;
+  font-weight: 500;
+  color: white;
+  font-size: 20px;
+}
+
+.hero {
+  border: 0;
+  margin: 0;
+  background-color: rgb(142, 172, 216);
+  padding-bottom: 15px;
+  text-align: center;
+}
+
+.space {
+  padding: 2em;
+}
+
+
+
+.hero h2 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  line-height: 2;
+}
+
+.hero hr {
+  width: 40%;
+  margin: 25px auto;
+  color: rgb(0, 0, 0, 0.6);
+}
+
+.herospan {
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: rgb(25, 0, 0, 0.3);
+  line-height: 1.5;
+}
+
+.text {
+  background-color: rgb(142, 172, 216);
+  padding: 2em;
+  text-align: ltr;
+}
+
+.text p {
+  line-height: 1.5;
+  text-align: ltr;
+  color: rgb(8, 68, 136);
+  font-weight: 400;
+}
