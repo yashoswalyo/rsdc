@@ -1,4 +1,4 @@
-# rsdc Heroku Page
-Basic page to introduce github pages
+# RSDC Heroku Page
+Basic page to introduce Heroku
 
-Site running at: https://yashoswalyo.github.io/rsdc
+Site running at: rsdc-web.herokuapp.com/index.html
